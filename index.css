@@ -1,1 +1,289 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+
+.header {
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    width: 100%;
+}
+
+
+img.logo {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 59px;
+    align-items: center;
+}
+
+
+nav.navigation {
+    display: inline-flex;
+    align-items: center;
+    justify-content: end;
+    text-decoration: underline;
+    width: 100%;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+span a {
+    margin: 7px;
+    color: seashell;
+}
+
+
+.outer-container1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(http://tinyurl.com/y6ky4ha8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    width: 90%;
+  }
+
+  
+.inner-container1 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+  }
+
+
+.inner-container1 h2 {
+    margin: 5px 0 5px 0;
+}
+
+
+.inner-container1 h4 {
+    margin: 5px 0 5px 0;
+}
+
+
+.container1 {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+}
+
+
+.container1 h2 {
+    margin: 80px 0 5px 0;
+}
+
+
+.container1 h4 {
+    margin: 5px 0 5px 0;
+}
+
+
+.outer-container2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.inner-container2-1 {
+    height: 200px;
+    width: 300px;
+}
+
+
+div.inner-container2-1 {
+    margin: 10px 10px 40px 10px;
+}
+
+
+.inner-container2-2 {
+    height: 200px;
+    width: 300px;
+}
+
+
+div.inner-container2-2 {
+    margin: 10px 10px 40px 10px;
+}
+
+.inner-container2-3 {
+    height: 200px;
+    width: 300px;
+}
+
+
+div.inner-container2-3 {
+    margin: 10px 10px 40px 10px;
+}
+
+
+.outer-container3 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.inner-container3-1 {
+    height: 200px;
+    width: 300px;
+}
+
+
+div.inner-container3-1 {
+    margin: 10px 10px 40px 10px;
+}
+
+
+.inner-container3-2 {
+    height: 200px;
+    width: 300px;
+}
+
+
+div.inner-container3-2 {
+    margin: 10px 10px 40px 10px;
+}
+
+
+.outer-container4 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-image: url(http://tinyurl.com/8a58kff6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    min-height: 600px;
+    margin-top: 80px;
+}
+
+
+.inner-container4-1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 5px 50px 5px 50px;
+    background-color: black;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+
+.inner-container4-1 h5 {
+    margin: 20px 0 20px 0;
+}
+
+
+.inner-container4-1 h3 {
+    margin-top: 0;
+}
+
+
+.inner-container4-2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: black;
+    margin: 5px 50px 5px 50px;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+
+.inner-container4-2 h5 {
+    margin: 20px 0 20px 0;
+}
+
+
+.inner-container4-2 h3 {
+    margin-top: 0;
+}
+
+
+.inner-container4-3 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: black;
+    margin: 5px 50px 5px 50px;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+
+.inner-container4-3 h5 {
+    margin: 20px 0 20px 0;
+}
+
+
+.inner-container4-3 h3 {
+    margin-top: 0;
+}
+
+
+#Locations {
+    width: 100%;
+}
+
+
+#Locations h2 {
+    margin: 50px 0 15px 0;
+    opacity: 1;
+}
+
+
+h5 {
+    margin-top: 0;
+}
+
+
+.container2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 200px;
+}
+
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    width: 100%;
+}
+
+
+footer h5 {
+    margin: 0 0 20px 20px;
+}
