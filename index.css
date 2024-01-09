@@ -295,3 +295,10 @@ footer h5 {
     font-size: 11px;
   }
 }
+
+
+@media only screen and (max-width: 480px) {
+  img.logo {
+    width: 160px;
+  }
+}
