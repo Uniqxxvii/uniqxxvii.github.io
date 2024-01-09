@@ -47,6 +47,7 @@ nav.navigation {
 span a {
     margin: 7px;
     color: seashell;
+    text-wrap: nowrap;
 }
 
 
@@ -291,6 +292,6 @@ footer h5 {
 
 @media only screen and (max-width: 480px) {
   span a {
-    font-size: 10px;
+    font-size: 11px;
   }
 }
